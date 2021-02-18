@@ -35,6 +35,7 @@ public class AssignmentNo3 {
         }
         return counter;
     }
+
     public static int bestResult() {
         int bestResult = 0;
         for (int b : myArray) {
@@ -44,7 +45,8 @@ public class AssignmentNo3 {
         }
         return bestResult;
     }
-    public static void histogram(){
+
+    public static void histogram() {
         int[] countGrades = new int[11];
         int counter;
         for (int i = 0; i < countGrades.length; i++) {
